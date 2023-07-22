@@ -1,7 +1,6 @@
-#Gradient Descent - Full dataSet(Takes all data at once)
-#MiniBatch - Where u can choose ur choice of number o dataset either 100 of 1 million.Choosen by data scientist
-#Stochastic Gradient Descent - Only one data at once.
-
+#Gradient Descent - Full dataSet(Takes all data at once) 1 iteration = 1 epoch
+#MiniBatch - Where u can choose ur choice of number o dataset either 100 of 1 million.Choosen by data scientist. Suppose there are 1000 records and u define 2 batches each of 500 records so there will be 2 iterations = 1 epoch.
+#Stochastic Gradient Descent - Only one epoch at once. Suppose there are 1000 records then 1 epoch will consists of 1000 iteration
 # Gradient Descent and Loss Function
 # Formula :
 # MSE(Mean Squared Error) = 1/n sum of (Y1-YP) ^2 Y1 is actual value and YP is predicted one.
